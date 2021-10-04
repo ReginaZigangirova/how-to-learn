@@ -115,6 +115,7 @@
     font-size: 24px;
     font-weight: normal;
     margin-bottom: 0px;
+    margin-top: 30px;
 }
 
 .two-columns__paragraph:first-of-type {
@@ -315,6 +316,7 @@
 }
 
 .footer {
+    display: flex;
     padding-top: 60px;
     padding-bottom: 40px;
     background-color: #1F1F1F;
@@ -322,15 +324,11 @@
     min-height: 350px;
 }
 
-.logo_place_footer {
-    height: 35px;
-}
-
 .footer__columns {
     display: flex;
     justify-content: space-between;
     width: 90%;
-    margin: auto;
+    margin-left: 64px;
 }
 
 .footer__column {}
@@ -342,9 +340,11 @@
     justify-content: space-between;
 }
 
+.logo_place_footer {
+    height: 35px;
+}
+
 .footer__author {
-    vertical-align: bottom;
-    left: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
     padding-top: 18px;
