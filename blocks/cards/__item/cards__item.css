@@ -2,6 +2,8 @@
     width: 240px;
     display: block;
     margin-right: 100px;
+    margin-top: 60px;
+    margin-bottom: 0;
 }
 
 .cards__item:nth-child(3n+3) {
